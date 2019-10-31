@@ -1,3 +1,26 @@
+//Colors
+
 $primary-color: #58e1c1;
 $secondary-color: #777;
 $default: #51ddfc;
+$error: #e4757a;
+$info: #927bc1;
+$success: #63cc82;
+$warning: #fd7856;
+$white: #fff;
+
+$buttons:(
+"default": $default,
+"error": $error,
+"info": $info,
+"success": $success,
+"warning": $warning,
+);
+
+//Fonts
+
+$main-font: 'Lato', sans-serif;
+
+//Breakpoints
+
+$breakpoint-med: 768px;
