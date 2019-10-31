@@ -1,0 +1,38 @@
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+  @include media-query($breakpoint-med) {
+    padding: 10px 30px;
+  }
+}
+
+.btn + .btn {
+  @include media-query($breakpoint-med) {
+    margin-left: 10px;
+  }
+}
+
+.default {
+  background-color: $default;
+}
+
+.error {
+  background-color: $error;
+}
+
+.info {
+  background-color: $info;
+}
+
+.success {
+  background-color: $success;
+}
+
+.warning {
+  background-color: $warning;
+}
